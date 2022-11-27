@@ -1,5 +1,6 @@
 package com.intervestlocationlibrary
 
+import android.util.Log
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
@@ -17,7 +18,11 @@ class IntervestLocationLibraryModule(reactContext: ReactApplicationContext) :
   @ReactMethod
   fun multiply(a: Double, b: Double, promise: Promise) {
     promise.resolve(a * b)
+    Log.d("correct", "dskjhdksj")
   }
+
+  @ReactMethod
+  
 
   companion object {
     const val NAME = "IntervestLocationLibrary"

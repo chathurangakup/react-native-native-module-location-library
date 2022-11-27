@@ -1,6 +1,6 @@
 //
 //  File.swift
-//  IntervestLocationLibraryExample
+//  LocationTrackingExample
 //
 
 import Foundation

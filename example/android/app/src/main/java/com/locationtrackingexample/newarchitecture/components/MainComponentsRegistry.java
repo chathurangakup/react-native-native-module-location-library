@@ -1,4 +1,4 @@
-package com.intervestlocationlibraryexample.newarchitecture.components;
+package com.locationtrackingexample.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

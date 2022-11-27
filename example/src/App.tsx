@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-intervest-location-library';
+import { multiply } from 'location_tracking';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();

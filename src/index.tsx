@@ -17,6 +17,12 @@ const IntervestLocationLibrary = NativeModules.IntervestLocationLibrary
       }
     );
 
+
+
 export function multiply(a: number, b: number): Promise<number> {
   return IntervestLocationLibrary.multiply(a, b);
 }
+
+
+
+

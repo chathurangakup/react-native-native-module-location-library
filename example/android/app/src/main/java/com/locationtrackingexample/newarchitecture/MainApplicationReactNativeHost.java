@@ -1,4 +1,4 @@
-package com.intervestlocationlibraryexample.newarchitecture;
+package com.locationtrackingexample.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.intervestlocationlibraryexample.BuildConfig;
-import com.intervestlocationlibraryexample.newarchitecture.components.MainComponentsRegistry;
-import com.intervestlocationlibraryexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.locationtrackingexample.BuildConfig;
+import com.locationtrackingexample.newarchitecture.components.MainComponentsRegistry;
+import com.locationtrackingexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
